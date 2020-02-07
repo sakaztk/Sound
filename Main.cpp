@@ -17,6 +17,7 @@ void ShowHelp()
 	::wcout << "Usage:" << ::endl;
 	::wcout << szFName << " [-g | -im | [[-m | -u] [VOLUME]]" << ::endl;
 	::wcout << "Options:" << ::endl;
+	::wcout << ::endl;
 	::wcout << "  -g,  --get     Get the current volume." << ::endl;
 	::wcout << "  -im, --ismute  Get the mute status." << ::endl;
 	::wcout << "  -m,  --mute    Mute the volume." << ::endl;
